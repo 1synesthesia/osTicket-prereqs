@@ -81,7 +81,7 @@ Now that you have a directory for your PHP; navigate to the most up to date vers
 <img width="477" height="297" alt="Screenshot 2026-06-23 015033" src="https://github.com/user-attachments/assets/aa55091c-d503-42e3-aacf-d8b0dcc1fc9c" />
 </p>
 <p>
-Navigate to the exact link shown in the screenshow and download. Once you have downloaded simply install the redistributable.
+Navigate to the exact link shown in the screenshot and download. Once you have downloaded simply install the redistributable.
 </p>
 <br />
 
@@ -102,7 +102,7 @@ Now you will download the latest version of mySQL installer. The first step in t
 <img width="1178" height="706" alt="Screenshot 2026-06-23 020456" src="https://github.com/user-attachments/assets/2c17f223-3a34-439d-9855-cba34a807e14" />
 </p>
 <p>
-Open Internet Information Services Manager as administrator. Once open navigate to PHP Manager and clcik register new PHP version. The .exe file necessary will be found within your PHP directory on your C: drive. After you have registered the PHP simply restart the IIS server at the home page under Actions>Manage Server. 
+Open Internet Information Services Manager as administrator. Once open navigate to PHP Manager and click register new PHP version. The .exe file necessary will be found within your PHP directory on your C: drive. After you have registered the PHP simply restart the IIS server at the home page under Actions>Manage Server. 
 </p>
 <br />
 
@@ -114,5 +114,7 @@ Open Internet Information Services Manager as administrator. Once open navigate 
 <img width="1902" height="1010" alt="Screenshot 2026-06-23 022242" src="https://github.com/user-attachments/assets/fc7ec74c-23f5-4674-ae92-ed807e391375" />
 </p>
 <p>
-Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. Now that you have successfully changed the name you can restart the IIS server once again. If done correctly it should look like the last screenshot above.
+Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. Now that you have successfully changed the name you can restart the IIS server once again; ff done correctly it should look like the last screenshot above.
 </p>
+<br />
+
