@@ -67,9 +67,12 @@ The next step will be to simply create a folder on your C: drive named PHP.
 
 <h3>Step 5: Install and unzip your PHP Database into your PHP directory</h3>
 <p>
-<img width="514" height="21" alt="Screenshot 2026-06-23 013724" src="https://github.com/user-attachments/assets/c3d48c50-f55b-4f66-8fd4-5773dd25a593" />
+<img width="518" height="15" alt="Screenshot 2026-06-23 014342" src="https://github.com/user-attachments/assets/c79501dc-62d8-426d-9dad-8aa7771ab4b4" />
 <img width="611" height="449" alt="Screenshot 2026-06-23 014005" src="https://github.com/user-attachments/assets/e0fd6863-c1e0-4065-a71d-2d7f63f74684" />
 </p>
 <p>
-
+Now that you have a directory for your PHP; navigate to the most up to date version of the PHP using the link in the prereqs (x64 for this demo). Once you have downloaded the zip file you will want to extract all files into your PHP directory on your C: drive.
 </p>
+<br />
+
+
