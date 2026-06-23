@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - HeidiSQL
-- osTicket
+- osTicket: <https://osticket.com/download/>
 - PHP Mananger for IIS: <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
 - PHP Database: <https://downloads.php.net/~windows/releases/archives/>
@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h1>ALWAYS MAKE SURE TO USE MOST UP TO DATE VERSION OF EACH PREREQ</h1>
 </p>
-<h3>Step 1: Activate IIS</h3>
+<h3>Step 1: Activate IIS (Internet Information Services)</h3>
 <p>
 <img width="1121" height="630" alt="Screenshot 2026-06-23 010532" src="https://github.com/user-attachments/assets/f42dc5ac-02db-405f-8e9f-d64e63fede14" />
 </p>
@@ -65,7 +65,7 @@ The next step will be to simply create a folder on your C: drive named PHP.
 </p>
 <br />
 
-<h3>Step 5: Install and unzip your PHP Database into your PHP directory</h3>
+<h3>Step 5: Install and unzip your PHP scripting language into your PHP directory</h3>
 <p>
 <img width="518" height="15" alt="Screenshot 2026-06-23 014342" src="https://github.com/user-attachments/assets/c79501dc-62d8-426d-9dad-8aa7771ab4b4" />
 <img width="611" height="449" alt="Screenshot 2026-06-23 014005" src="https://github.com/user-attachments/assets/e0fd6863-c1e0-4065-a71d-2d7f63f74684" />
@@ -92,7 +92,27 @@ Navigate to the exact link shown in the screenshow and download. Once you have d
 <img width="495" height="373" alt="Screenshot 2026-06-23 015640" src="https://github.com/user-attachments/assets/e3bdc97a-bb92-4264-838f-0e5dfcf4d5d5" />
 </p>
 <p>
-Now you will install the latest version of mySQL. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide what type of config you would like to do; for the purposes of this demo pick standard. After you have set a user and password for mySQL you can execute the config wizard.
+Now you will download the latest version of mySQL installer. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide what type of config you would like to do; for the purposes of this demo pick standard. After you have set a user and password for mySQL you can execute the config wizard.
 </p>
 <br />
 
+<h3>Step 8: Register PHP within IIS</h3>
+<p>
+<img width="826" height="863" alt="Screenshot 2026-06-23 020333" src="https://github.com/user-attachments/assets/03cb3a3b-dc1f-4a5b-b03e-8f7c71ce3903" />
+<img width="1178" height="706" alt="Screenshot 2026-06-23 020456" src="https://github.com/user-attachments/assets/2c17f223-3a34-439d-9855-cba34a807e14" />
+</p>
+<p>
+Open Internet Information Services Manager as administrator. Once open navigate to PHP Manager and clcik register new PHP version. The .exe file necessary will be found within your PHP directory on your C: drive. After you have registered the PHP simply restart the IIS server at the home page under Actions>Manage Server. 
+</p>
+<br />
+
+<h3>Step 9: Download and install osTicket</h3>
+<p>
+<img width="1470" height="668" alt="Screenshot 2026-06-23 021510" src="https://github.com/user-attachments/assets/46a88a01-2392-45f0-87ab-a1b2d1b61619" />
+<img width="1147" height="656" alt="Screenshot 2026-06-23 021718" src="https://github.com/user-attachments/assets/c48ac33c-30d8-46d5-a698-0afe692a6d1e" />
+<img width="1116" height="632" alt="Screenshot 2026-06-23 021851" src="https://github.com/user-attachments/assets/59430960-1710-4b2f-9032-5fc01f6c678c" />
+<img width="1902" height="1010" alt="Screenshot 2026-06-23 022242" src="https://github.com/user-attachments/assets/fc7ec74c-23f5-4674-ae92-ed807e391375" />
+</p>
+<p>
+Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. Now that you have successfully changed the name you can restart the IIS server once again. If done correctly it should look like the last screenshot above.
+</p>
