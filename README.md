@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<h1>ALWAYS MAKE SURE TO USE MOST UP TO DATE VERSION OF EACH PREREQ</h1>
+<h1>ALWAYS MAKE SURE TO USE THE MOST UP TO DATE VERSION OF EACH PREREQ</h1>
 </p>
 <h3>Step 1: Activate IIS (Internet Information Services)</h3>
 <p>
