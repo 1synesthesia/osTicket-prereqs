@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - HeidiSQL
 - osTicket
-- PHP Mananger for IIS
+- PHP Mananger for IIS <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
 - Rewrite Module
 - PHP Database
 - mySQL
@@ -36,11 +36,12 @@ Naviagte to Control Panel then select uninstall a program. Once you are there yo
 </p>
 <br />
 
+<h3>Step 2: Install PHP Manager for IIS</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="495" height="406" alt="Screenshot 2026-06-23 011935" src="https://github.com/user-attachments/assets/b2ffc01b-36be-468d-84ed-cf96cb370c95" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next you will want to install a PHP Manager for IIS. 
 </p>
 <br />
 
