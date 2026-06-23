@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP Mananger for IIS: <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
 - PHP Database: <https://downloads.php.net/~windows/releases/archives/>
-- mySQL
-- VC Redistributable
+- mySQL: <https://dev.mysql.com/downloads/mysql/>
+- VC Redistributable: <https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170>
 
 <h2>Installation Steps</h2>
 
@@ -75,4 +75,24 @@ Now that you have a directory for your PHP; navigate to the most up to date vers
 </p>
 <br />
 
+<h3>Step 6: Install the C++ Redistributable</h3>
+<p>
+<img width="686" height="140" alt="Screenshot 2026-06-23 014901" src="https://github.com/user-attachments/assets/411e67b7-e6f6-4175-8c4a-c23f23bfe0e0" />
+<img width="477" height="297" alt="Screenshot 2026-06-23 015033" src="https://github.com/user-attachments/assets/aa55091c-d503-42e3-aacf-d8b0dcc1fc9c" />
+</p>
+<p>
+Navigate to the exact link shown in the screenshow and download. Once you have downloaded simply install the redistributable.
+</p>
+<br />
+
+<h3>Step 7: Install mySQL </h3>
+<p>
+<img width="1021" height="764" alt="Screenshot 2026-06-23 015536" src="https://github.com/user-attachments/assets/7f7b0a36-b800-4468-b640-334545a59cc5" />
+<img width="490" height="386" alt="Screenshot 2026-06-23 015607" src="https://github.com/user-attachments/assets/1a310267-8f88-4e26-a89f-e8c71a56ffc6" />
+<img width="495" height="373" alt="Screenshot 2026-06-23 015640" src="https://github.com/user-attachments/assets/e3bdc97a-bb92-4264-838f-0e5dfcf4d5d5" />
+</p>
+<p>
+Now you will install the latest version of mySQL. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide what type of config you would like to do; for the purposes of this demo pick standard. After you have set a user and password for mySQL you can execute the config wizard.
+</p>
+<br />
 
