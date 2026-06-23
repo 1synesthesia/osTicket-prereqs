@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - HeidiSQL
 - osTicket
 - PHP Mananger for IIS: <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
-- Rewrite Module
+- Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
 - PHP Database
 - mySQL
 - VC Redistributable
@@ -41,14 +41,19 @@ Naviagte to Control Panel then select uninstall a program. Once you are there yo
 <img width="495" height="406" alt="Screenshot 2026-06-23 011935" src="https://github.com/user-attachments/assets/b2ffc01b-36be-468d-84ed-cf96cb370c95" />
 </p>
 <p>
-Next you will want to install a PHP Manager for IIS. 
+Next you will want to install a PHP Manager for IIS. Simply go to the link above in the Prequisites and download. This will be used to register a PHP with IIS and allow you to access all the features necessary for osTicket.
+</p>
+<br />
+<h3>Step 3: Install Microsoft URL Rewrite Extension</h3>
+<p>
+<img width="364" height="85" alt="image" src="https://github.com/user-attachments/assets/b3f0a181-ccba-4d8a-aa17-98895b9f0037" />
+</p>
+<p>
+Now you will simply download the Rewrite Module necessary for osTicket. Make sure to install the x64 version for whatever language you require (English shown above for this demo).
 </p>
 <br />
 
+<h3>Step 4: Create a PHP Directory</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
