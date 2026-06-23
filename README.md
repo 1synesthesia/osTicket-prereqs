@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket
 - PHP Mananger for IIS: <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
-- PHP Database
+- PHP Database: <https://downloads.php.net/~windows/releases/archives/>
 - mySQL
 - VC Redistributable
 
@@ -55,5 +55,11 @@ Now you will simply download the Rewrite Module necessary for osTicket. Make sur
 
 <h3>Step 4: Create a PHP Directory</h3>
 <p>
-
+<img width="1121" height="630" alt="Screenshot 2026-06-23 012929" src="https://github.com/user-attachments/assets/7fb4a724-ecde-48b1-a7f3-c67830e3a07b" />
 </p>
+<p>
+The next step will be to simply create a folder on your C: drive named PHP.
+</p>
+<br />
+
+
