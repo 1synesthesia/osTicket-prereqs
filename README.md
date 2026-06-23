@@ -27,6 +27,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+<p>
+<h1>ALWAYS MAKE SURE TO USE MOST UP TO DATE VERSION OF EACH PREREQ</h1>
+</p>
 <h3>Step 1: Activate IIS</h3>
 <p>
 <img width="1121" height="630" alt="Screenshot 2026-06-23 010532" src="https://github.com/user-attachments/assets/f42dc5ac-02db-405f-8e9f-d64e63fede14" />
@@ -62,4 +65,11 @@ The next step will be to simply create a folder on your C: drive named PHP.
 </p>
 <br />
 
+<h3>Step 5: Install and unzip your PHP Database into your PHP directory</h3>
+<p>
+<img width="514" height="21" alt="Screenshot 2026-06-23 013724" src="https://github.com/user-attachments/assets/c3d48c50-f55b-4f66-8fd4-5773dd25a593" />
+<img width="611" height="449" alt="Screenshot 2026-06-23 014005" src="https://github.com/user-attachments/assets/e0fd6863-c1e0-4065-a71d-2d7f63f74684" />
+</p>
+<p>
 
+</p>
