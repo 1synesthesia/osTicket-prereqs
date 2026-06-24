@@ -126,5 +126,6 @@ Using the link in the prereqs download osTicket by following the steps on the we
 <img width="818" height="779" alt="Screenshot 2026-06-23 231219" src="https://github.com/user-attachments/assets/acfc7f1f-0f13-4b46-aae7-ee0f00a34ce2" />
 </p>
 <p>
-Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default WebSite. Click on the osTicket folder and clcick Browse *:80 (http)  
+Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default WebSite. Click on the osTicket folder and click Browse *:80 (http) which should open your osTicket installer. You will now need to enable some extensions for osTicket to run smoothly for your business. To enable the extensions go to the PHP Manager on your osTicket folders home screen; find Enable or disable an extension and enable php_intl.dll, php_imap.dll, and php_opcache.dll (if you are using a newer version of PHP you will need to manually download the [imap](https://pecl.php.net/package/imap/1.0.3/windows) 
+
 </p>
