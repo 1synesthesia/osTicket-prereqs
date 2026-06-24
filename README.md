@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - osTicket: <https://osticket.com/download/>
 - PHP Mananger for IIS: <https://github.com/RonaldCarter/PHPManager/releases)/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
-- PHP Database: <https://downloads.php.net/~windows/releases/archives/>
+- PHP Scripting Language: <https://downloads.php.net/~windows/releases/archives/>
 - mySQL: <https://dev.mysql.com/downloads/mysql/>
 - VC Redistributable: <https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170>
 
