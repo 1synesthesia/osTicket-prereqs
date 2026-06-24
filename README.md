@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- HeidiSQL
+- HeidiSQL: <https://www.heidisql.com/download.php>
 - osTicket: <https://osticket.com/download/>
 - PHP Mananger for IIS: <https://github.com/RonaldCarter/PHPManager/releases)/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
@@ -138,3 +138,25 @@ Now that you have installed osTicket navigate to your new osTicket folder under 
 <p>
 Before you can do anything to install osTicket you must change the ost-sampleconfig filename to ost-config and give full permissions to osTicket to make changes.
 </p>
+<br />
+
+<h3>Step 12: Install HeidiSQL and setup osTicket Database</h3>
+<p>
+<img width="685" height="481" alt="Screenshot 2026-06-23 235439" src="https://github.com/user-attachments/assets/1d0663be-5d9a-45be-acd2-19fc1f8e4d2d" />
+<img width="860" height="458" alt="Screenshot 2026-06-23 235752" src="https://github.com/user-attachments/assets/2cbcb24b-eabd-4d13-88e3-a0e4ce669ef9" />
+<img width="820" height="1199" alt="Screenshot 2026-06-23 235826" src="https://github.com/user-attachments/assets/14533e70-2e7c-4d54-88bb-4b356416062b" />
+</p>
+<p>
+Now that you are on the basic installation page you can fill out the system settings and setup an admin user. You will now need to setup the mySQL database using HeidiSQL which can be downloaded from the prereqs. Once it is downloaded you will start a new session and sign into the mySQL database with the user and password you setup beforehand. Once connected right click on database and select create new and then database. The database MUST be named osTicket otherwise the installation will not work. After the database is setup fill out the database settings section of the installer and click install now. If done correctly you will be sent to a screen that confirms your install and asks you to change the ost.config file to write only permissions; you must do this for osTicket to function securely. Another important security step is to delete the setup folder in your osTicket folder. 
+</p>
+<br />
+
+<h3>Step 12: Congratulations you have installed osTicket</h3>
+<p>
+<img width="2158" height="1270" alt="Screenshot 2026-06-24 000816" src="https://github.com/user-attachments/assets/885fd762-0b9a-4237-a209-80d4d32e1a2e" />
+<img width="2177" height="1285" alt="Screenshot 2026-06-24 000846" src="https://github.com/user-attachments/assets/37daf3f7-6cdf-4da6-9f71-006158bc74b0" />
+</p>
+<p>
+Congratulations! You have now succesfully setup and installed an osTicket system. You can now log into the admin account you setup and start configuring your ticketing system!
+</p>
+<br />
