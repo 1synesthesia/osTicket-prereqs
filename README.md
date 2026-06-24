@@ -93,7 +93,7 @@ Navigate to the exact link shown in the screenshot and download. Once you have d
 <img width="495" height="373" alt="Screenshot 2026-06-23 015640" src="https://github.com/user-attachments/assets/e3bdc97a-bb92-4264-838f-0e5dfcf4d5d5" />
 </p>
 <p>
-Now you will download the latest version of mySQL installer. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide what type of config you would like to do; for the purposes of this demo pick standard. After you have set a user and password for mySQL you can execute the config wizard.
+Now you will download the latest version of mySQL installer. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide how you would like to configure your mySQL depending on your specific needs. In this case we havent changed anything; after you have set a user and password for mySQL you can execute the config wizard.
 </p>
 <br />
 
