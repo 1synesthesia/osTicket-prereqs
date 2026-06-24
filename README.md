@@ -118,3 +118,13 @@ Using the link in the prereqs download osTicket by following the steps on the we
 </p>
 <br />
 
+<h3>Step 10: Ensure osTicket Extensions are enabled</h3>
+<p>
+<img width="1900" height="279" alt="Screenshot 2026-06-23 231345" src="https://github.com/user-attachments/assets/ab92be78-0410-46f0-b4a7-4b5ffb726951" />
+<img width="1466" height="368" alt="Screenshot 2026-06-23 231120" src="https://github.com/user-attachments/assets/e107dd2a-35fc-409d-bfa6-092c5c414a77" />
+<img width="233" height="15" alt="Screenshot 2026-06-23 230810" src="https://github.com/user-attachments/assets/eb70b327-521d-4626-832d-5f02fb413c1c" />
+<img width="818" height="779" alt="Screenshot 2026-06-23 231219" src="https://github.com/user-attachments/assets/acfc7f1f-0f13-4b46-aae7-ee0f00a34ce2" />
+</p>
+<p>
+Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default WebSite. Click on the osTicket folder and clcick Browse *:80 (http)  
+</p>
