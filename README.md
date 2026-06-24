@@ -55,7 +55,7 @@ Next you will want to install a PHP Manager for IIS. Simply go to the link above
 <img width="364" height="85" alt="image" src="https://github.com/user-attachments/assets/b3f0a181-ccba-4d8a-aa17-98895b9f0037" />
 </p>
 <p>
-Now you will simply download the Rewrite Module necessary for osTicket. Make sure to install the x64 version for whatever language you require (English shown above for this demo).
+Now you will simply download the Rewrite Module necessary for osTicket. Make sure to install the x64 version for whatever language you require (English shown above for this tutorial).
 </p>
 <br />
 
@@ -74,7 +74,7 @@ The next step will be to simply create a folder on your C: drive named PHP.
 <img width="611" height="449" alt="Screenshot 2026-06-23 014005" src="https://github.com/user-attachments/assets/e0fd6863-c1e0-4065-a71d-2d7f63f74684" />
 </p>
 <p>
-Now that you have a directory for your PHP; navigate to the most up to date version of the PHP using the link in the prereqs (x64 for this demo). Once you have downloaded the zip file you will want to extract all files into your PHP directory on your C: drive.
+Now that you have a directory for your PHP; navigate to the most up to date version of the PHP using the link in the prereqs. Once you have downloaded the zip file you will want to extract all files into your PHP directory on your C: drive.
 </p>
 <br />
 
@@ -90,11 +90,11 @@ Navigate to the exact link shown in the screenshot and download. Once you have d
 
 <h3>Step 7: Install mySQL </h3>
 <p>
-<img width="1021" height="764" alt="Screenshot 2026-06-23 015536" src="https://github.com/user-attachments/assets/7f7b0a36-b800-4468-b640-334545a59cc5" />
+<img width="955" height="355" alt="Screenshot 2026-06-24 003003" src="https://github.com/user-attachments/assets/5d32cea0-47ed-4990-8bee-724b0193378b" />
 <img width="490" height="386" alt="Screenshot 2026-06-23 015607" src="https://github.com/user-attachments/assets/1a310267-8f88-4e26-a89f-e8c71a56ffc6" />
 </p>
 <p>
-Now you will download the latest version of mySQL installer. The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this demo you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide how you would like to configure your mySQL depending on your specific needs. In this case we havent changed anything; after you have set a user and password for mySQL you can execute the config wizard.
+Now you will download the latest version of mySQL installer (make sure it is the MSI installer as shown above). The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this tutorial you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide how you would like to configure your mySQL depending on your specific needs. In this case we havent changed anything; after you have set a user and password for mySQL you can execute the config wizard.
 </p>
 <br />
 
