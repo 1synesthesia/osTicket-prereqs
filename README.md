@@ -68,7 +68,7 @@ The next step will be to simply create a folder on your C: drive named PHP.
 
 <h3>Step 5: Install and unzip your PHP scripting language into your PHP directory</h3>
 <p>
-<img width="518" height="15" alt="Screenshot 2026-06-23 014342" src="https://github.com/user-attachments/assets/c79501dc-62d8-426d-9dad-8aa7771ab4b4" />
+<img width="259" height="30" alt="Screenshot 2026-06-23 223704" src="https://github.com/user-attachments/assets/1cb6242d-5ed3-45dc-8ffc-f5fa7544fcd5" />
 <img width="611" height="449" alt="Screenshot 2026-06-23 014005" src="https://github.com/user-attachments/assets/e0fd6863-c1e0-4065-a71d-2d7f63f74684" />
 </p>
 <p>
