@@ -18,13 +18,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- <a href=https://www.heidisql.com/download.php>HeidiSQL</a>
-- <a href=https://osticket.com/download/>osTicket Installer</a>
-- <a href=https://github.com/RonaldCarter/PHPManager/releases)/>PHP Manager for IIS</a>
-- <a href=https://www.iis.net/downloads/microsoft/url-rewrite>C++ Rewrite Module</a>
-- <a href=https://downloads.php.net/~windows/releases/archives/>PHP Scripting Language</a>
-- <a href=https://dev.mysql.com/downloads/mysql/>mySQL Database</a>
-- <a href=https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&viewFallbackFrom=msvc-170%2F>VC Redistributable</a>
+- <a href="https://www.heidisql.com/download.php">HeidiSQL</a>
+- <a href="https://osticket.com/download/">osTicket Installer</a>
+- <a href="https://github.com/RonaldCarter/PHPManager/releases)/">PHP Manager for IIS</a>
+- <a href="https://www.iis.net/downloads/microsoft/url-rewrite">C++ Rewrite Module</a>
+- <a href="https://downloads.php.net/~windows/releases/archives/">PHP Scripting Language</a>
+- <a href="https://dev.mysql.com/downloads/mysql/">mySQL Database</a>
+- <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&viewFallbackFrom=msvc-170%2F">VC Redistributable</a>
 
 
 <h2>Installation Steps</h2>
