@@ -24,7 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <a href=https://www.iis.net/downloads/microsoft/url-rewrite>C++ Rewrite Module</a>
 - <a href=https://downloads.php.net/~windows/releases/archives/>PHP Scripting Language</a>
 - <a href=https://dev.mysql.com/downloads/mysql/>mySQL Database</a>
-- <a href=https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170>VC Redistributable</a>
+- <https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170/>VC Redistributable</a>
+
 
 <h2>Installation Steps</h2>
 
