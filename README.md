@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - HeidiSQL
 - osTicket: <https://osticket.com/download/>
-- PHP Mananger for IIS: <https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10/>
+- PHP Mananger for IIS: <https://github.com/RonaldCarter/PHPManager/releases)/>
 - Rewrite Module: <https://www.iis.net/downloads/microsoft/url-rewrite>
 - PHP Database: <https://downloads.php.net/~windows/releases/archives/>
 - mySQL: <https://dev.mysql.com/downloads/mysql/>
