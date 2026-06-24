@@ -128,3 +128,13 @@ Using the link in the prereqs download osTicket by following the steps on the we
 <p>
 Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default Web Site. Click on the osTicket folder and click Browse *:80 (http) which should open your osTicket installer. You will now need to enable some extensions for osTicket to run smoothly for your business. To enable the extensions go to the PHP Manager on your osTicket folders home screen; find Enable or disable an extension and enable php_intl.dll, php_imap.dll, and php_opcache.dll (if you are using a newer version of PHP you will need to manually download the <a href="https://pecl.php.net/package/imap/1.0.3/windows">imap extension</a> and place it in your PHPs ext folder,once you are done with that you need to open your php.ini file and find the extensions section and add extension=php_imap.dll; you will also need to ensure that opcache is enabled on newer versions so in that same file find opcache and make sure its value is 1). Once these are enabled restart your server once again and check the installer to make sure it looks like the screenshot above.
 </p>
+<br />
+
+<h3>Step 11: Enabling osTicket Configuration</h3>
+<p>
+<img width="1121" height="634" alt="Screenshot 2026-06-23 234710" src="https://github.com/user-attachments/assets/31b376d4-5383-4d3d-8608-6cec5e2629b4" />
+<img width="765" height="515" alt="Screenshot 2026-06-23 234928" src="https://github.com/user-attachments/assets/e22720df-46f4-47f4-a378-2a57669563bd" />
+</p>
+<p>
+Before you can do anything to install osTicket you must change the ost-sampleconfig filename to ost-config and give full permissions to osTicket to make changes.
+</p>
