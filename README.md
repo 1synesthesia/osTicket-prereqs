@@ -136,7 +136,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1902" height="1010" alt="Screenshot 2026-06-23 022242" src="https://github.com/user-attachments/assets/fc7ec74c-23f5-4674-ae92-ed807e391375" />
 </p>
 <p>
-• Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. • Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. 
+• Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. 
+
+• Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. 
   
 • After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. 
 
