@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1121" height="630" alt="Screenshot 2026-06-23 010532" src="https://github.com/user-attachments/assets/f42dc5ac-02db-405f-8e9f-d64e63fede14" />
 </p>
 <p>
-Naviagte to Control Panel and then select uninstall a program. Once you are there you will want to click 'Turn Windows features on or off'. Then you will want to activate Internet Information Services and make sure to expand and navigate to World Wide Web services. Expand the WWWS, find Application Development Features and expand, and then check the box next to CGI (do not forget this step otherwise osTicket will not work). Once you have double checked to make sure everything is the same as the screenshot above you can click ok which will install IIS with CGI.
+Naviagte to Control Panel and then select uninstall a program. Once you are there you will want to click 'Turn Windows features on or off'. Then you will want to activate Internet Information Services and make sure to expand and navigate to World Wide Web services. Expand the WWWS, find Application Development Features and expand, and then check the box next to CGI (do not forget this step otherwise osTicket will not work). Once you have double checked to make sure everything is the same as the screenshot above you can click 'ok' which will install IIS with CGI.
 </p>
 <br />
 
@@ -94,7 +94,7 @@ Navigate to the exact link shown in the screenshot and download. Once you have d
 <img width="490" height="386" alt="Screenshot 2026-06-23 015607" src="https://github.com/user-attachments/assets/1a310267-8f88-4e26-a89f-e8c71a56ffc6" />
 </p>
 <p>
-Now you will download the latest version of mySQL installer (make sure it is the MSI installer as shown above). The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this tutorial you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide how you would like to configure your mySQL depending on your specific needs. In this case we havent changed anything; after you have set a user and password for mySQL you can execute the config wizard.
+Now you will download the latest version of mySQL installer (make sure it is the MSI installer as shown above). The first step in the installation process will be to decide what type of installation setup you would like to use; for the purposes of this tutorial you will use Typical setup. Once the setup is done you will be taken to the configuration wizard; you will then decide how you would like to configure your mySQL depending on your specific needs. In this case we haven't changed anything; after you have set a user and password for mySQL you can execute the config wizard.
 </p>
 <br />
 
@@ -104,7 +104,7 @@ Now you will download the latest version of mySQL installer (make sure it is the
 <img width="1178" height="706" alt="Screenshot 2026-06-23 020456" src="https://github.com/user-attachments/assets/2c17f223-3a34-439d-9855-cba34a807e14" />
 </p>
 <p>
-Open Internet Information Services Manager as administrator. Once open navigate to PHP Manager and click register new PHP version. The .exe file necessary will be found within your PHP directory on your C: drive. After you have registered the PHP simply restart the IIS server at the home page under Actions>Manage Server. 
+Open Internet Information Services Manager as administrator. Once open navigate to PHP Manager and click 'register new PHP version'. The .exe file necessary will be found within your PHP directory on your C: drive. After you have registered the PHP simply restart the IIS server at the home page under Actions>Manage Server. 
 </p>
 <br />
 
@@ -116,7 +116,7 @@ Open Internet Information Services Manager as administrator. Once open navigate 
 <img width="1902" height="1010" alt="Screenshot 2026-06-23 022242" src="https://github.com/user-attachments/assets/fc7ec74c-23f5-4674-ae92-ed807e391375" />
 </p>
 <p>
-Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. Now that you have successfully changed the name you can restart the IIS server once again; ff done correctly it should look like the last screenshot above.
+Using the link in the prereqs download osTicket by following the steps on the website specific to your installation type. Once downloaded unzip the file onto your computer and copy the upload folder into C: \inetpup\wwwroot. After you have copied the folder into wwwroot you must rename it exactly osTicket otherwise osTicket will not work. Now that you have successfully changed the name you can restart the IIS server once again; if done correctly it should look like the last screenshot above.
 </p>
 <br />
 
@@ -128,7 +128,7 @@ Using the link in the prereqs download osTicket by following the steps on the we
 <img width="818" height="779" alt="Screenshot 2026-06-23 231219" src="https://github.com/user-attachments/assets/acfc7f1f-0f13-4b46-aae7-ee0f00a34ce2" />
 </p>
 <p>
-Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default Web Site. Click on the osTicket folder and click Browse *:80 (http) which should open your osTicket installer. You will now need to enable some extensions for osTicket to run smoothly. To enable the extensions go to the PHP Manager on your osTicket folder's home screen; find Enable or disable an extension and enable php_intl.dll, php_imap.dll, and php_opcache.dll (if you are using a newer version of PHP you will need to manually download the <a href="https://pecl.php.net/package/imap/1.0.3/windows">imap extension</a> and place it in your PHP's ext folder,once you are done with that you need to open your php.ini file and find the extensions section and add extension=php_imap.dll; you will also need to ensure that opcache is enabled on newer versions so in that same file find opcache and make sure its value is 1). Once these are enabled restart your server once again and check the installer to make sure it looks like the screenshot above.
+Now that you have installed osTicket navigate to your new osTicket folder under Sites/Default Web Site. Click on the osTicket folder and click Browse *:80 (http) which should open your osTicket installer. You will now need to enable some extensions for osTicket to run smoothly. To enable the extensions go to the PHP Manager on your osTicket folder's home screen; find 'Enable or disable an extension' and enable php_intl.dll, php_imap.dll, and php_opcache.dll (if you are using a newer version of PHP you will need to manually download the <a href="https://pecl.php.net/package/imap/1.0.3/windows">imap extension</a> and place it in your PHP's ext folder,once you are done with that you need to open your php.ini file, find the extensions section, and add ;extension=php_imap.dll; you will also need to ensure that opcache is enabled on newer versions so in that same file find opcache and make sure its value is 1). Once these are enabled restart your server once again and check the installer to make sure it looks like the screenshot above.
 </p>
 <br />
 
@@ -149,7 +149,7 @@ Before you can do anything to install osTicket you must change the ost-samplecon
 <img width="820" height="1199" alt="Screenshot 2026-06-23 235826" src="https://github.com/user-attachments/assets/14533e70-2e7c-4d54-88bb-4b356416062b" />
 </p>
 <p>
-Now that you are on the basic installation page you can fill out the system settings and setup an admin user. You will now need to setup the mySQL database using HeidiSQL which can be downloaded from the prereqs. Once it is downloaded you will start a new session and sign into the mySQL database with the user and password you setup beforehand. Once connected right click on database and select create new and then database. The database MUST be named osTicket otherwise the installation will not work. After the database is setup fill out the database settings section of the installer and click install now. If done correctly you will be sent to a screen that confirms your install and asks you to change the ost.config file to write only permissions; you must do this for osTicket to function securely. Another important security step is to delete the setup folder in your osTicket folder. 
+Now that you are on the basic installation page you can fill out the system settings and setup an admin user. You will now need to setup the mySQL database using HeidiSQL which can be downloaded from the prereqs. Once it is downloaded you will start a new session and sign into the mySQL database with the user and password you setup beforehand. Once connected right click on the database and select create new/database. The database MUST be named osTicket otherwise the installation will not work. After the database is setup fill out the database settings section of the installer and click install now. If done correctly you will be sent to a screen that confirms your install and asks you to change the ost.config file to write only permissions; you must do this for osTicket to function securely. Another important security step is to delete the setup folder in your osTicket folder. 
 </p>
 <br />
 
