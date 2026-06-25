@@ -2,6 +2,11 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
+<h1>What is osTicket and why use it?</h1>
+<p>The main use for osTicket is as a ticketing system for IT Help Desk scenarios. It allows for easy communication between users, agents, and admins about all sorts of help desk scenarios. The best reason to use osTicket is that it is a practically fully customizable software which can be configured to be used in whatever way best fits your companies needs. It is also an open source platform allowing you to save costs and allows you to adjust the coding as you see fit.
+</p>
+<br />
+
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
@@ -32,6 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h1>ALWAYS MAKE SURE TO USE THE MOST UP TO DATE VERSION OF EACH PREREQ</h1>
 </p>
+
 <h3>Step 1: Activate IIS (Internet Information Services)</h3>
 <p>
 <img width="1121" height="630" alt="Screenshot 2026-06-23 010532" src="https://github.com/user-attachments/assets/f42dc5ac-02db-405f-8e9f-d64e63fede14" />
@@ -162,3 +168,5 @@ Now that you are on the basic installation page you can fill out the system sett
 Congratulations! You have now succesfully setup and installed an osTicket system. You can now log into the admin account you setup and start configuring your ticketing system!
 </p>
 <br />
+
+
