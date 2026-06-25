@@ -31,6 +31,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <a href="https://dev.mysql.com/downloads/mysql/">mySQL Database</a>
 - <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&viewFallbackFrom=msvc-170%2F">VC Redistributable</a>
 
+<h2>Configuring your Azure VM</h2>
+
+<p>
+<img width="789" height="1305" alt="Screenshot 2026-06-24 232049" src="https://github.com/user-attachments/assets/525a0196-63e4-4929-8593-cf30d0f21882" />
+</p>
+<p>
+* Your first step to setting up your Azure VM is to create a resource group to put it in. The only important step here is to name it!
+</p>
+
 
 <h2>Installation Steps</h2>
 
