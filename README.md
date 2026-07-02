@@ -2,18 +2,6 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>What is osTicket and why use it?</h1>
-<p>
-The main use for osTicket is as a ticketing system for IT Help Desk scenarios. It allows for easy communication between users, agents, and admins about all sorts of help desk scenarios. The best reason to use osTicket is that it is a practically fully customizable software which can be configured to be used in whatever way best fits your companies needs. It is also an open source platform allowing you to save costs and allows you to adjust the coding as you see fit.
-</p>
-<br />
-
-<h1>What are Azure VMs and why use them for osTicket?</h1>
-<p>
-Azure VMs or Virtual Machines are cloud based computing software that allow you to run a multitude of OS systems on the Microsoft cloud service. Using them allows you to save costs on local storage and allows for a much larger ease of access from anywhere in the world! Having osTicket on a cloud service like Azure can keep your system safe from local security issues and allow you to have remote help desk agents working whenever necessary.
-</p>
-<br />
-
 <h1>osTicket/Azure VM - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. It will also show you how to setup an Azure Cloud VM to keep your osTicket system on to save costs and local storage space. <br />
 
@@ -48,7 +36,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="789" height="1305" alt="Screenshot 2026-06-24 232049" src="https://github.com/user-attachments/assets/525a0196-63e4-4929-8593-cf30d0f21882" />
 </p>
 <p>
-- Your first step to setting up your Azure VM is to create a resource group to put it in. The only important step here is to name it!
+- Your first step to setting up your Azure VM is to create a resource group to put it in.
+- Navigate to 'resource groups' under 'create a resource'.
+- Once you are on the resource group page click 'Create'.
+- Give it a name that applies to the osTicket system for easy organization.
 </p>
 <br />
 
