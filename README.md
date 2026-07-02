@@ -37,8 +37,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 - Your first step to setting up your Azure VM is to create a resource group to put it in.
+
 - Navigate to 'resource groups' under 'create a resource'.
+
 - Once you are on the resource group page click 'Create'.
+
 - Give it a name that applies to the osTicket system for easy organization.
 </p>
 <br />
@@ -48,6 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 - Now you will need to create a virtual machine. The first step in this process is to access the 'virtual machines' tab under 'create a resource'. 
+
 - Once you get to the virtual machines page click create and select virtual machine.
 </p>
 <br />
